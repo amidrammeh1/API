@@ -8,7 +8,7 @@ const Styles = props => {
   }
   return (
     <div>
-      <h1 style={styles}> The {isNaN(props.param) ? "word" : "number"} is {props.param}</h1>
+      <h1 style={styles}> The {isNaN(props.id) ? "word" : "number"} is {props.id}</h1>
     </div>
   )
 }

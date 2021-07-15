@@ -9,8 +9,8 @@ return (
   <div>
     <Router>
       <Home path= "/home" />
-      <Number path= "/:param" />
-      <Styles path="/:param/:color/:background"/>
+      <Number path= "/:id" />
+      <Styles path="/:id/:color/:background"/>
 
     </Router>
   </div>
